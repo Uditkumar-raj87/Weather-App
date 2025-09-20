@@ -58,7 +58,7 @@ async function checkWeather(city) {
       // handle API errors (e.g., city not found)
     if (!response.ok) {
         // You can show a nicer UI message instead of alert
-        alert(data.message || "Could not get weather for that city.");
+        alert(data.message || "Could not get weather for the city.");
         return;
     }
 
